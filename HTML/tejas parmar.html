@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Studenet marksheet</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #74ebd5, #9face6);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .marksheet {
+            width: 700px;
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+        }
+
+        h1 {
+            text-align: center;
+            color: #673ab7;
+            margin-bottom: 25px;
+        }
+
+        .student-info {
+            background: #e8eaf6;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .student-info p {
+            display: inline-block;
+            width: 50%;
+            color: #333;
+            font-weight: bold;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+        th {
+            background: #673ab7;
+            color: white;
+            padding: 14px;
+        }
+
+        td {
+            padding: 12px;
+            text-align: center;
+            border: 2px solid #0c0b0b;
+        }
+
+        tr:nth-child(even) {
+            background: #f3e5f5;
+        }
+
+        tr:nth-child(odd) {
+            background: #e8f5e9;
+        }
+
+        .total {
+            background: #ff9800 !important;
+            color: white;
+            font-weight: bold;
+        }
+
+        .result {
+            margin-top: 20px;
+            padding: 15px;
+            text-align: center;
+            background: #4caf50;
+            color: white;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="marksheet">
+
+        <h1>🎓 STUDENT MARKSHEET</h1>
+
+        <div class="student-info">
+            <p>Student Name: Parmar Tejas Bhagavanbhai</p>
+            <p>Roll No: 392 </p>
+            <p>Class: 12th</p>
+            <p>Section: c</p>
+        </div>
+
+        <table>
+            <tr>
+                <th>Subject</th>
+                <th>Max Marks</th>
+                <th>Obtained Marks</th>
+                <th>Grade</th>
+            </tr>
+
+            <tr>
+                <td>English</td>
+                <td>100</td>
+                <td>85</td>
+                <td>A</td>
+            </tr>
+
+            <tr>
+                <td>Mathematics</td>
+                <td>100</td>
+                <td>92</td>
+                <td>A+</td>
+            </tr>
+
+            <tr>
+                <td>Science</td>
+                <td>100</td>
+                <td>88</td>
+                <td>A</td>
+            </tr>
+
+            <tr>
+                <td>Computer</td>
+                <td>100</td>
+                <td>95</td>
+                <td>A+</td>
+            </tr>
+
+            <tr>
+                <td>Chemistry</td>
+                <td>100</td>
+                <td>80</td>
+                <td>A</td>
+            </tr>
+
+            <tr class="total">
+                <td>Total</td>
+                <td>500</td>
+                <td>440</td>
+                <td>A</td>
+            </tr>
+        </table>
+
+        <div class="result">
+             RESULT: PASS &nbsp; | &nbsp; Percentage: 88.5%
+        </div>
+
+    </div>
+
+</body>
+</html>

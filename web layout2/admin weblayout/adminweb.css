@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 95%;
+    margin: 0px auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.layout{
+    display: flex;
+}
+aside{
+    width: 25%;
+    height: 100vh;
+    background-color: red;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+
+    padding: 50px;
+}
+ul{
+    list-style-type: none;
+}
+aside.cmpname{
+    margin-top: 100px;
+}
+aside .cmpname h1{
+    color: rgb(54, 11, 194);
+}
+aside .menu{
+    margin-top: 50px;
+}
+aside .menu ul li a{
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    display: block;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+aside .menu ul li a:hover{
+    background-color: white;
+    color: black;
+}
+main{
+    width: 75%;
+    margin: 20px;
+    margin-left: 25%;
+}
+main .title{
+    margin-top: 70px;
+}
+main .title h2{
+    font-size: 70px;
+}
+.border{
+    width: 100px;
+    display: block;
+    color: red;
+    margin-top: 100px;
+    border-radius: 5px;
+}

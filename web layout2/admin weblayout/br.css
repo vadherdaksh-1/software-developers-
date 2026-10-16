@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    display: block;
+    text-decoration: none;
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-3{
+    width: 25%;
+    padding: 0px 10px;
+}
+.col-6{
+    width: 50%;
+    padding: 0px 10px;
+}

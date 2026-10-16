@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>12 MARKSHHET</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 30px;
+            background: #e5e5e5;
+            font-family: Arial, sans-serif;
+        }
+
+        .marksheet {
+            max-width: 950px;
+            margin: auto;
+            padding: 25px;
+            background: #fffdf5;
+            border: 3px solid #555;
+            position: relative;
+        }
+
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #555;
+            padding-bottom: 15px;
+        }
+
+        .header h2 {
+            margin: 5px;
+            font-size: 24px;
+        }
+
+        .header h3 {
+            margin: 5px;
+            font-size: 18px;
+        }
+
+        .info-table,
+        .marks-table,
+        .summary-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th,
+        td {
+            border: 2px solid #555;
+            padding: 9px;
+            text-align: center;
+        }
+
+        th {
+            background: #eee8d5;
+        }
+
+        .left {
+            text-align: left;
+        }
+
+        .student-info td {
+            text-align: left;
+        }
+
+        .student-info strong {
+            display: inline-block;
+            width: 150px;
+        }
+
+        .total {
+            font-weight: bold;
+            background: #eee8d5;
+        }
+
+        .footer {
+            margin-top: 25px;
+            display: flex;
+            justify-content: space-between;
+            border-top: 1px solid #555;
+            padding-top: 20px;
+        }
+
+        .signature {
+            text-align: center;
+            width: 200px;
+        }
+
+        .signature-line {
+            border-top: 1px solid #333;
+            margin-top: 45px;
+            padding-top: 5px;
+        }
+
+        @media (max-width: 700px) {
+            body {
+                padding: 10px;
+            }
+
+            .marksheet {
+                padding: 10px;
+            }
+
+            .marks-table {
+                font-size: 12px;
+            }
+
+            th,
+            td {
+                padding: 5px;
+            }
+
+            .sample {
+                font-size: 40px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="marksheet">
+    <div class="sample"></div>
+
+    <header class="header">
+        <h2>GUJRAT HIGH SECANDARY EDUCATION BOARD,GANDHINAGAR</h2>
+        <h3>STATEMENT OF MARKS-TABLE</h3>
+        <p><strong>STATEMENT OF MARKS — DEMONSTRATION ONLY</strong></p>
+    </header>
+
+    <table class="info-table">
+        <tr>
+            <th>MONTH & YEAR</th>
+            <th>SEAT NO.</th>
+            <th>CENTRE NO.</th>
+            <th>SCHOOL NO.</th>
+            <th>GROUP</th>
+        </tr>
+
+        <tr>
+            <td>MAY-2021</td>
+            <td>B- 222564</td>
+            <td>137</td>
+            <td>33.112</td>
+            <td>A</td>
+        </tr>
+    </table>
+
+    <table class="info-table student-info">
+        <tr>
+            <td>
+                <strong>Candidate's Name:-</strong>
+                PARMAR TEJASBHAI BHAGAVANBHAI
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <strong>Student ID:-</strong>
+                21V-204204
+            </td>
+        </tr>
+    </table>
+
+    <table class="marks-table">
+        <thead>
+            <tr>
+                <th>CODE</th>
+                <th>SUBJECT</th>
+                <th>MAX MARKS</th>
+                <th>MARKS OBTAINED</th>
+                <th>GRADE</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>013</td>
+                <td class="left">ENGLISH</td>
+                <td>100</td>
+                <td>055</td>
+                <td>C1</td>
+            </tr>
+
+            <tr>
+                <td>050</td>
+                <td class="left">MATHEMATICS</td>
+                <td>100</td>
+                <td>065</td>
+                <td>B</td>
+            </tr>
+
+            <tr>
+                <td>052</td>
+                <td class="left">CHEMISTRY</td>
+                <td>100</td>
+                <td>052</td>
+                <td>C1</td>
+            </tr>
+
+            <tr>
+                <td>053</td>
+                <td class="left">CHEMISTRY PRACTICAL</td>
+                <td>050</td>
+                <td>035</td>
+                <td>B</td>
+            </tr>
+
+            <tr>
+                <td>054</td>
+                <td class="left">PHYSICS</td>
+                <td>100</td>
+                <td>049</td>
+                <td>C</td>
+            </tr>
+
+            <tr>
+                <td>055</td>
+                <td class="left">PHYSICS PRACTICAL</td>
+                <td>050</td>
+                <td>036</td>
+                <td>B</td>
+            </tr>
+
+            <tr>
+                <td>331</td>
+                <td class="left">COMPUTER</td>
+                <td>100</td>
+                <td>054</td>
+                <td>C1</td>
+            </tr>
+
+            <tr>
+                <td>332</td>
+                <td class="left">COMPUTER PRACTICAL</td>
+                <td>050</td>
+                <td>049</td>
+                <td>A1</td>
+            </tr>
+
+            <tr class="total">
+                <td colspan="2">TOTAL</td>
+                <td>650</td>
+                <td>395</td>
+                <td>C1</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table class="summary-table">
+        <tr>
+            <th>SCIENCE PERCENTILE</th>
+            <th>ALL THEORY PERCENTILE</th>
+            <th>OVERALL PERCENTILE</th>
+            <th>RESULT</th>
+        </tr>
+
+        <tr>
+            <td>10.28</td>
+            <td>09.89</td>
+            <td>09.70</td>
+            <td>PASS</td>
+        </tr>
+    </table>
+
+    <div class="footer">
+
+        <div>
+            <strong>Note:</strong>
+            <p>*Any change in this document except by the issuing authorty,
+                will result into cancellation.
+            </p>
+            <p>*It is not an official document.</p>
+        </div>
+
+        <div class="signature">
+            <div class="signature-line">
+                principal signature
+            </div>
+            <small>S.V.S Authority</small>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
